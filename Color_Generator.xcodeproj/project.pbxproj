@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC41A0FA2E3A71B100964ACE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = AC41A0F92E3A71B100964ACE /* FirebaseDatabase */; };
+		AC41A0FC2E3A71B100964ACE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AC41A0FB2E3A71B100964ACE /* FirebaseFirestore */; };
+		AC41A0FE2E3A71B100964ACE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AC41A0FD2E3A71B100964ACE /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC41A0D72E3A4AC500964ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC41A0BF2E3A4AC300964ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC41A0C62E3A4AC300964ACE;
+			remoteInfo = Color_Generator;
+		};
+		AC41A0E12E3A4AC500964ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC41A0BF2E3A4AC300964ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC41A0C62E3A4AC300964ACE;
+			remoteInfo = Color_Generator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC41A0C72E3A4AC300964ACE /* Color_Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Color_Generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41A0D62E3A4AC500964ACE /* Color_GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Color_GeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41A0E02E3A4AC500964ACE /* Color_GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Color_GeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC41A0C92E3A4AC300964ACE /* Color_Generator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Color_Generator;
+			sourceTree = "<group>";
+		};
+		AC41A0D92E3A4AC500964ACE /* Color_GeneratorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Color_GeneratorTests;
+			sourceTree = "<group>";
+		};
+		AC41A0E32E3A4AC500964ACE /* Color_GeneratorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Color_GeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC41A0C42E3A4AC300964ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41A0FA2E3A71B100964ACE /* FirebaseDatabase in Frameworks */,
+				AC41A0FC2E3A71B100964ACE /* FirebaseFirestore in Frameworks */,
+				AC41A0FE2E3A71B100964ACE /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0D32E3A4AC500964ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0DD2E3A4AC500964ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC41A0BE2E3A4AC300964ACE = {
+			isa = PBXGroup;
+			children = (
+				AC41A0C92E3A4AC300964ACE /* Color_Generator */,
+				AC41A0D92E3A4AC500964ACE /* Color_GeneratorTests */,
+				AC41A0E32E3A4AC500964ACE /* Color_GeneratorUITests */,
+				AC41A0C82E3A4AC300964ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC41A0C82E3A4AC300964ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC41A0C72E3A4AC300964ACE /* Color_Generator.app */,
+				AC41A0D62E3A4AC500964ACE /* Color_GeneratorTests.xctest */,
+				AC41A0E02E3A4AC500964ACE /* Color_GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC41A0C62E3A4AC300964ACE /* Color_Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41A0EA2E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_Generator" */;
+			buildPhases = (
+				AC41A0C32E3A4AC300964ACE /* Sources */,
+				AC41A0C42E3A4AC300964ACE /* Frameworks */,
+				AC41A0C52E3A4AC300964ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC41A0C92E3A4AC300964ACE /* Color_Generator */,
+			);
+			name = Color_Generator;
+			packageProductDependencies = (
+				AC41A0F92E3A71B100964ACE /* FirebaseDatabase */,
+				AC41A0FB2E3A71B100964ACE /* FirebaseFirestore */,
+				AC41A0FD2E3A71B100964ACE /* FirebaseStorage */,
+			);
+			productName = Color_Generator;
+			productReference = AC41A0C72E3A4AC300964ACE /* Color_Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC41A0D52E3A4AC500964ACE /* Color_GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41A0ED2E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_GeneratorTests" */;
+			buildPhases = (
+				AC41A0D22E3A4AC500964ACE /* Sources */,
+				AC41A0D32E3A4AC500964ACE /* Frameworks */,
+				AC41A0D42E3A4AC500964ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC41A0D82E3A4AC500964ACE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC41A0D92E3A4AC500964ACE /* Color_GeneratorTests */,
+			);
+			name = Color_GeneratorTests;
+			packageProductDependencies = (
+			);
+			productName = Color_GeneratorTests;
+			productReference = AC41A0D62E3A4AC500964ACE /* Color_GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC41A0DF2E3A4AC500964ACE /* Color_GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41A0F02E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_GeneratorUITests" */;
+			buildPhases = (
+				AC41A0DC2E3A4AC500964ACE /* Sources */,
+				AC41A0DD2E3A4AC500964ACE /* Frameworks */,
+				AC41A0DE2E3A4AC500964ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC41A0E22E3A4AC500964ACE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC41A0E32E3A4AC500964ACE /* Color_GeneratorUITests */,
+			);
+			name = Color_GeneratorUITests;
+			packageProductDependencies = (
+			);
+			productName = Color_GeneratorUITests;
+			productReference = AC41A0E02E3A4AC500964ACE /* Color_GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC41A0BF2E3A4AC300964ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AC41A0C62E3A4AC300964ACE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AC41A0D52E3A4AC500964ACE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AC41A0C62E3A4AC300964ACE;
+					};
+					AC41A0DF2E3A4AC500964ACE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AC41A0C62E3A4AC300964ACE;
+					};
+				};
+			};
+			buildConfigurationList = AC41A0C22E3A4AC300964ACE /* Build configuration list for PBXProject "Color_Generator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC41A0BE2E3A4AC300964ACE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AC41A0F82E3A71B100964ACE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC41A0C82E3A4AC300964ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC41A0C62E3A4AC300964ACE /* Color_Generator */,
+				AC41A0D52E3A4AC500964ACE /* Color_GeneratorTests */,
+				AC41A0DF2E3A4AC500964ACE /* Color_GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC41A0C52E3A4AC300964ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0D42E3A4AC500964ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0DE2E3A4AC500964ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC41A0C32E3A4AC300964ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0D22E3A4AC500964ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41A0DC2E3A4AC500964ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC41A0D82E3A4AC500964ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC41A0C62E3A4AC300964ACE /* Color_Generator */;
+			targetProxy = AC41A0D72E3A4AC500964ACE /* PBXContainerItemProxy */;
+		};
+		AC41A0E22E3A4AC500964ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC41A0C62E3A4AC300964ACE /* Color_Generator */;
+			targetProxy = AC41A0E12E3A4AC500964ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC41A0E82E3A4AC500964ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC41A0E92E3A4AC500964ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC41A0EB2E3A4AC500964ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HexRang;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC41A0EC2E3A4AC500964ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HexRang;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC41A0EE2E3A4AC500964ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color_Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color_Generator";
+			};
+			name = Debug;
+		};
+		AC41A0EF2E3A4AC500964ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color_Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color_Generator";
+			};
+			name = Release;
+		};
+		AC41A0F12E3A4AC500964ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Color_Generator;
+			};
+			name = Debug;
+		};
+		AC41A0F22E3A4AC500964ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZF3H9HW6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Color-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Color_Generator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC41A0C22E3A4AC300964ACE /* Build configuration list for PBXProject "Color_Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41A0E82E3A4AC500964ACE /* Debug */,
+				AC41A0E92E3A4AC500964ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41A0EA2E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41A0EB2E3A4AC500964ACE /* Debug */,
+				AC41A0EC2E3A4AC500964ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41A0ED2E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41A0EE2E3A4AC500964ACE /* Debug */,
+				AC41A0EF2E3A4AC500964ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41A0F02E3A4AC500964ACE /* Build configuration list for PBXNativeTarget "Color_GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41A0F12E3A4AC500964ACE /* Debug */,
+				AC41A0F22E3A4AC500964ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC41A0F82E3A71B100964ACE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC41A0F92E3A71B100964ACE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC41A0F82E3A71B100964ACE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		AC41A0FB2E3A71B100964ACE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC41A0F82E3A71B100964ACE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AC41A0FD2E3A71B100964ACE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC41A0F82E3A71B100964ACE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC41A0BF2E3A4AC300964ACE /* Project object */;
+}
