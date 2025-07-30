@@ -1,4 +1,4 @@
-# Color Generator App 🎨
+# HexRang 🎨
 
 A beautiful SwiftUI app that generates random colors, saves them to your collection, and syncs them across devices using Firebase Firestore.
 
@@ -10,8 +10,8 @@ A beautiful SwiftUI app that generates random colors, saves them to your collect
 - Gorgeous glass-morphism UI
 
 ## Requirements 📋
-- Xcode 15+
-- iOS 17+
+- Xcode 16+
+- iOS 18+
 - Swift 5.9+
 - Firebase account
 
